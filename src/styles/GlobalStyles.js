@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components'
+import { theme } from './Theme'
 
 export const GlobalStyles = createGlobalStyle`
 
@@ -9,7 +10,7 @@ export const GlobalStyles = createGlobalStyle`
 }
 
 body {
-    background-color: #283D55;
+    background-color: ${theme.colors.lightblue};
     width: 100%;
     overflow-x: hidden;
     font-family: "Roboto", sans-serif;
