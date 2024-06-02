@@ -10,7 +10,7 @@ export const GlobalStyles = createGlobalStyle`
 }
 
 body {
-    background-color: ${theme.colors.lightblue};
+    background-color: ${theme.colors.bluebg};
     width: 100%;
     overflow-x: hidden;
     font-family: "Roboto", sans-serif;

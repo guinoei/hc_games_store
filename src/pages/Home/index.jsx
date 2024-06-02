@@ -11,15 +11,15 @@ export const Home = () => {
         <Container>
             <Left>
                 <ImgLeft>
-                    <h1>Video Games</h1>
+                    <Link to='/video-games' ><h1>Video Games</h1></Link>
                     <p>Playstation, Xbox, Nintendo...</p>
                 </ImgLeft>               
             </Left>
             <Info>
                 <Logo>
                     <Link to="/" >
-                        <img src="./src/assets/img/hcgames_logo.png" alt="HC GAMES logo" />   
-                    </Link>    
+                        <img src="./src/assets/img/hcgames_logo.png" alt="HC GAMES logo" />
+                    </Link>
                 </Logo>
                 <Social>
                     <Link to="https://www.instagram.com/hcgamesrc/" target="_blank" >
